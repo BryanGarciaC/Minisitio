@@ -1,0 +1,259 @@
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background: linear-gradient(45deg, #49a09d, #5f2c82);
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+/*estilos del login*/
+
+.login-box {
+    width: 320px;
+    height: 420px;
+    background: #49a09d;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  
+  .login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  
+  .login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-box input[type="text"], .login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .btn {
+    border-bottom: indigo;
+    outline: none;
+    height: 40px;
+    background: #350f8d;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .btn :hover {
+    cursor: pointer;
+    background: #5f2c82;
+    color: #000;
+  }
+  
+  .login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+  }
+  
+  .login-box a:hover {
+    color: #fff;
+  }
+
+
+  /* estilo para el formulario*/
+
+.login-box1 {
+    width: 400px;
+    height: 500px;
+    background: #49a09d;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  
+  
+  .login-box1 h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .login-box1 label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .login-box1 input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-box1 input[type="text"], .login-box1 input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .login-box1 a {
+    border: none;
+    outline: none;
+    height: 75px;
+    background: #350f8d;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 100px;
+  }
+  
+  .login-box1 a:hover {
+    cursor: pointer;
+    background: #5f2c82;
+    color: #000;
+  }
+  
+
+  
+  
+
+  .grid_footer {
+    background-color: black;
+    color: white;
+    grid-column: 1 / span 3;
+    text-align: right;
+    margin: 5px;
+    padding: 25px;
+}
+
+  /*header style*/
+
+  .header__logo {
+    display: inline-flex;
+    height: 100px;
+    width: 100px;
+    background-image: url('../imagenes/logopan.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 75rem;
+  }
+  .header__logos {
+    display: inline-flex;
+    height: 75px;
+    width: 100px;
+    background-image: url('../imagenes/logopan.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 75rem;
+   
+  }
+  
+.center_header {
+    background: url(../imagenes/header.jpg) no-repeat top center;
+    padding: 2em 0;
+}
+
+.center_header .title2 {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin: 0.3em 0 0 0;
+}
+
+/*menu opciones*/
+.ul {
+  width: 100%;
+  float: right;
+  text-align:right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color:white;
+
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/*estilos de la informacion*/
+
+.main_cls {
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+.title {
+  color: blanchedalmond;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+
+/*footer*/
+.grid_footer {
+  background-color: black;
+  color: white;
+  grid-column: 1 / span 2;
+  text-align: center;
+  margin: 5px;
+  padding: 15px;
+}
